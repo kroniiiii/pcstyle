@@ -77,10 +77,10 @@ export function Footer() {
           <div>
             <h3 className="font-display text-sm font-bold uppercase tracking-wider text-frost">Kontakti</h3>
             <ul className="mt-4 space-y-3 text-sm text-mist">
-              <li className="flex items-start gap-2.5"><MapPin className="mt-0.5 h-4 w-4 shrink-0 text-electric" /> Rr. UÇK, Prishtinë 10000, Kosovë</li>
-              <li className="flex items-center gap-2.5"><Phone className="h-4 w-4 shrink-0 text-electric" /> +383 44 000 000</li>
-              <li className="flex items-center gap-2.5"><Mail className="h-4 w-4 shrink-0 text-electric" /> info@pcstyle.com</li>
-              <li className="flex items-center gap-2.5"><Clock className="h-4 w-4 shrink-0 text-electric" /> Hën–Sht: 09:00 – 20:00</li>
+              <li className="flex items-start gap-2.5"><MapPin className="mt-0.5 h-4 w-4 shrink-0 text-electric" /> Rr. Abedin Sogojeva, Fushë Kosovë 12000, Kosovë</li>
+              <li className="flex items-center gap-2.5"><Phone className="h-4 w-4 shrink-0 text-electric" /> +383 48 265 537</li>
+              <li className="flex items-center gap-2.5"><Mail className="h-4 w-4 shrink-0 text-electric" /> saturni28@hotmail.com</li>
+              <li className="flex items-center gap-2.5"><Clock className="h-4 w-4 shrink-0 text-electric" /> 09:00AM - 19:00PM</li>
             </ul>
           </div>
         </div>

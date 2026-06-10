@@ -17,10 +17,10 @@ export default function ContactPage() {
       <div className="mt-10 grid gap-8 lg:grid-cols-[360px_1fr]">
         <div className="space-y-4">
           {[
-            { Icon: MapPin, title: "Adresa", value: "Rr. UÇK, Prishtinë 10000, Kosovë" },
-            { Icon: Phone, title: "Telefoni", value: "+383 44 000 000" },
-            { Icon: Mail, title: "Email", value: "info@pcstyle.com" },
-            { Icon: Clock, title: "Orari", value: "Hën–Sht: 09:00 – 20:00" },
+            { Icon: MapPin, title: "Adresa", value: "Rr. Abedin Sogojeva, Fushë Kosovë 12000, Kosovë" },
+            { Icon: Phone, title: "Telefoni", value: "+383 48 265 537" },
+            { Icon: Mail, title: "Email", value: "saturni28@hotmail.com" },
+            { Icon: Clock, title: "Orari", value: "09:00AM - 19:00PM" },
           ].map(({ Icon, title, value }) => (
             <div key={title} className="flex items-start gap-4 rounded-xl border border-steel bg-carbon p-5">
               <span className="rounded-lg bg-electric/10 p-2.5 text-volt"><Icon className="h-5 w-5" /></span>

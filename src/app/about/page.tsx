@@ -31,7 +31,7 @@ export default function AboutPage() {
         {[
           { Icon: Cpu, title: "5000+", desc: "Produkte të shitura" },
           { Icon: Users, title: "3200+", desc: "Klientë të kënaqur" },
-          { Icon: Award, title: "24 muaj", desc: "Garanci zyrtare" },
+          { Icon: Award, title: "1 muaj", desc: "Garanci zyrtare" },
           { Icon: Rocket, title: "24-48h", desc: "Dërgesë e shpejtë" },
         ].map(({ Icon, title, desc }) => (
           <div key={title} className="rounded-xl border border-steel bg-carbon p-6 text-center transition-all hover:border-electric/60 hover:shadow-glow-sm">
