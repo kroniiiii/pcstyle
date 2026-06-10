@@ -22,7 +22,7 @@ export const metadata: Metadata = {
   },
   description:
     "PC-STYLE - Dyqan online për kompjuterë desktop, laptopë, kartela grafike, procesorë, RAM, SSD, monitorë dhe aksesorë teknologjikë. Çmime të shkëlqyera, dërgesë e shpejtë.",
-  keywords: ["PC", "kompjuter", "laptop", "GPU", "CPU", "gaming", "teknologji", "Kosovë", "PC-STYLE"],
+  keywords: ["PC", "Kompjuter", "laptop", "GPU", "CPU", "gaming", "teknologji", "Kosovë", "PC-STYLE"],
   icons: { icon: "/favicon.svg" },
   openGraph: {
     type: "website",
