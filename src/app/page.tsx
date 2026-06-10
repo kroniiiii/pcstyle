@@ -8,7 +8,7 @@ import { Hero } from "@/components/home/Hero";
 import { CategoryGrid } from "@/components/home/CategoryGrid";
 import { ProductCard } from "@/components/product/ProductCard";
 
-export const revalidate = 60; // rifresko të dhënat çdo 60 sekonda
+ export const dynamic = "force-dynamic";
 
 export default async function HomePage() {
   const [categories, featured, deals] = await Promise.all([

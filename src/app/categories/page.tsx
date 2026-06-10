@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   title: "Kategoritë",
   description: "Të gjitha kategoritë e produkteve teknologjike në PC-STYLE.",
 };
-export const revalidate = 300;
+export const dynamic = "force-dynamic";
 
 export default async function CategoriesPage() {
   const categories = await prisma.category.findMany({
