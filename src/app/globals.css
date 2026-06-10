@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root { --electric: #1f6bff; }
+
+html { scroll-behavior: smooth; }
+
+body { @apply bg-ink text-frost font-body antialiased; }
+
+/* Sfond me rrjetë qarku (circuit grid) - elementi nënshkrim i brendit */
+.circuit-bg {
+  background-image: linear-gradient(rgba(31, 107, 255, 0.05) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(31, 107, 255, 0.05) 1px, transparent 1px);
+  background-size: 36px 36px;
+}
+
+/* Scrollbar i personalizuar */
+::-webkit-scrollbar { width: 10px; }
+::-webkit-scrollbar-track { background: #06080f; }
+::-webkit-scrollbar-thumb { background: #161d2b; border-radius: 6px; }
+::-webkit-scrollbar-thumb:hover { background: #1f6bff; }
+
+/* Fokus i dukshëm për tastierë (accessibility) */
+:focus-visible { outline: 2px solid #4d9fff; outline-offset: 2px; }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
+}
